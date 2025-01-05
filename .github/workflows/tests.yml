@@ -22,7 +22,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          distribution: 'adoptopenjdk'
+          distribution: 'temurin'
           java-version: '17'
 
       - name: Cache Gradle dependencies
