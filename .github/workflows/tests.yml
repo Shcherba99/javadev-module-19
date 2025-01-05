@@ -22,7 +22,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          distribution: 'openjdk'
+          distribution: 'adoptopenjdk'
           java-version: '17'
 
       - name: Cache Gradle dependencies
